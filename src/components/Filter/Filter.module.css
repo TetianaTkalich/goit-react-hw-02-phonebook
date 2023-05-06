@@ -21,7 +21,7 @@
     padding: 0 12px;
     height: 42px;
     background: rgba(255, 255, 255, 0.788);
-    border: 1px solid rgba(255, 255, 255, 0.365);
+    border: 1px solid rgba(255, 255, 255, 0.123);
     backdrop-filter: blur(2px);
     border-radius: 2px;
 
@@ -29,5 +29,5 @@
 }
 
 .input:hover {
-    border: 1px solid #e8f576;
+    border: 1px solid #76f5af;
 }

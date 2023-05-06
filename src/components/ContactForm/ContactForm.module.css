@@ -34,7 +34,7 @@
     padding: 0 12px;
     height: 42px;
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.685);
+    border: 1px solid rgba(255, 255, 255, 0.068);
     backdrop-filter: blur(2px);
     border-radius: 2px;
 
@@ -42,11 +42,11 @@
 }
 
 .input:hover {
-    border: 1px solid #76f5af;
+    border: 1px solid #76f596;
 }
 
 .button {
-    color: white;
+    color: rgb(197, 182, 51);
     font-weight: 400;
     font-size: 18px;
     line-height: 1.2;
@@ -56,10 +56,10 @@
     border-radius: 2px;
     height: 42px;
     border: none;
-    background: linear-gradient(270deg, #56d360 -20.93%, #752ae6f3 116.86%, #A976F5 116.86%);
-    transform: background cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    background: color orange;
+    
 }
 
 .button:hover {
-    background: linear-gradient(270deg, #27c921 -20.93%, #752AE6 116.86%, #975FEB 116.86%);
+    background: color green;
 }
