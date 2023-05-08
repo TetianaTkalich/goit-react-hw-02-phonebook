@@ -1,45 +1,27 @@
 .list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-
+    padding: 0;
 }
 
 .item {
     display: flex;
-    align-items: center;
-    font-weight: 400;
-    font-size: 18px;
-    display: flex;
+    gap: 20px;
+    width: 300px;
     justify-content: space-between;
-    text-align: left;
-    padding: 12px;
-    background: rgba(255, 255, 255, 0.4);
-        border: 1px solid #FFFFFF;
-        border-radius: 2px;
-        backdrop-filter: blur(4px);
-        transform: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    margin-bottom: 8px;
 }
 
-.item:hover {
-box-shadow: 0px 2px 8px rgba(99, 99, 99, 0.2);
+.number {
+    font-weight: 600;
 }
 
-.button_delete {
-    color: black;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.05em;
-    padding: 8px;
-    border-radius: 2px;
-    border: none;
-    background: color rgb(255, 51, 0);
-    
+.button {
+    justify-content: flex-end;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 10px;
 }
 
-.button_delete:hover {
-    background: color green;
-
+.button:hover {
+    background: rgb(240, 240, 240);
 }
